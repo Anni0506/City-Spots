@@ -1,0 +1,22 @@
+/* Replace the whole contents of your src/index.css with this.
+   Vite's default index.css centers everything on the page, which fights
+   with an app-style layout (header on top, nav at the bottom). */
+
+* {
+  box-sizing: border-box; /* padding/border no longer make elements wider than their width */
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #e9e9e9;
+}
+
+/* #root is the <div> React mounts into (see index.html + main.jsx).
+   We make it a phone-shaped column that is exactly as tall as the screen. */
+#root {
+  max-width: 480px;
+  height: 100dvh;
+  margin: 0 auto;
+  background-color: #fff;
+}
