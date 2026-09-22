@@ -34,8 +34,7 @@ function AccountView({ userId, postCount, savedCount }) {
       <div style={{ display: 'flex', gap: '12px' }}>
         <div style={statStyle}>
           <div style={{ fontSize: '24px', fontWeight: 'bold' }}>{postCount}</div>
-          <div style={{ color: '#666', fontSize: '13px' }}>Your post
-          </div>
+          <div style={{ color: '#666', fontSize: '13px' }}>Your post</div>
         </div>
         <div style={statStyle}>
           <div style={{ fontSize: '24px', fontWeight: 'bold' }}>{savedCount}</div>
