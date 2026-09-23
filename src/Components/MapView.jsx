@@ -99,7 +99,6 @@ function MapView({ posts, center, userLocation, onLocateMe }) {
       </MapContainer>
 
       {/* Floating labels on top of the map (the "MAP (Near You)" title in your sketch) */}
-      
       <button onClick={onLocateMe} style={{ ...overlayStyle, right: '12px', border: 'none', cursor: 'pointer' }}>
         📍 Near me
       </button>
